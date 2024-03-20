@@ -1,0 +1,2110 @@
+{
+    "players": [
+      {
+        "name": "Cedric",
+        "height": "6'1\"",
+        "weight": "170 lbs",
+        "bio": "Cedric is a contender for league MVP, known for shooting, rebounding, and rim protection, he is a force to be reckoned with.",
+        "image": "../images/cedric.jpg"
+      },
+      {
+        "name": "Kasch",
+        "height": "5'10\"",
+        "weight": "180 lbs",
+        "bio": "Kasch is a defensive monster known for great shot contesting and rebounding, he provides a constant threat on the defensive end.",
+        "image": "../images/kasch.jpg"
+      },
+      {
+        "name": "Lachlan",
+        "height": "5'11\"",
+        "weight": "160 lbs",
+        "bio": "Lachlan is an aggresive offensive player known for his scoring ability and quickness, he primarily works in the paint.",
+        "image": "../images/lachlan.jpg"
+      },
+      {
+        "name": "William",
+        "height": "6'0\"",
+        "weight": "175 lbs",
+        "bio": "William is a versatile player on both ends of the floor, providing dunking, rebounding, and shot blocking.",
+        "image": "../images/william.jpg"
+      },
+      {
+        "name": "Isaiah",
+        "height": "5'8\"",
+        "weight": "150 lbs",
+        "bio": "Isaiah is a quick and agile player known for his offensive firepower, he is a constant threat from the 3 point line as well as driving and dunking. Very clutch.",
+        "image": "../images/isaiah.jpg"
+      },
+      {
+        "name": "Jonny",
+        "height": "5'10\"",
+        "weight": "200 lbs",
+        "bio": "Jonny is a dominant force in the paint, known for his offensive rebounding and dunking, he also blinds his opponents with comedic quips.",
+        "image": "../images/jonny.jpg"
+      },
+      {
+        "name": "Abel",
+        "height": "6'0\"",
+        "weight": "200 lbs",
+        "bio": "Abel is a powerhouse paint player. Masterfully backing down opponents and dunking on them. The closest comparison to Shaq in the league.",
+        "image": "../images/abel.jpg"
+      },
+      {
+        "name": "Clifford",
+        "height": "5'9\"",
+        "weight": "160 lbs",
+        "bio": "Clifford is an agile guard known for sneaking between defenders and dunking, he is also a great shot blocker and good at snagging steals.",
+        "image": "../images/clifford.jpg"
+      },
+      {
+        "name": "Jude",
+        "height": "5'10\"",
+        "weight": "170 lbs",
+        "bio": "Jude is a versatile player with solid passing ability. He's quickly learning the game and should be someone to watch for in the future.",
+        "image": "../images/jude.jpg"
+      },
+      {
+        "name": "Nolan",
+        "height": "6'0\"",
+        "weight": "170 lbs",
+        "bio": "Nolan is a solid all around player, known for his 3 point shooting and fadeaways and defense, he is a constant threat on both ends of the floor.",
+        "image": "../images/nolan.jpg"
+      },
+      {
+        "name": "Oren",
+        "height": "5'11\"",
+        "weight": "170 lbs",
+        "bio": "Oren is a high flying dunker with impeccable passing vision, he is a great team player and a constant threat on the offensive end.",
+        "image": "../images/oren.jpg"
+      },
+      {
+        "name": "Lee",
+        "height": "5'10\"",
+        "weight": "180 lbs",
+        "bio": "Lee is a high basketball IQ player, known for his great passing and court vision, he also is great at cutting off passing lanes and snagging steals.",
+        "image": "../images/lee.jpg"
+      }
+    ],
+    "games": [
+      {
+          "game": 1,
+          "teams": [
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 13.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 12.0,
+                          "TReb": 16.0,
+                          "Assists": 2.0,
+                          "Blocks": 4.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 25.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 12.0,
+                          "DReb": 2.0,
+                          "TReb": 14.0,
+                          "Assists": 3.0,
+                          "Blocks": 0.0,
+                          "Steals": 5.0,
+                          "TO": 1.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 12.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 6.0,
+                          "TReb": 6.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 7.0,
+                          "TReb": 9.0,
+                          "Assists": 1.0,
+                          "Blocks": 4.0,
+                          "Steals": 0.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              6.0,
+              1.0
+          ]
+      },
+      {
+          "game": 2,
+          "teams": [
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 6.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 6.0,
+                          "TReb": 12.0,
+                          "Assists": 1.0,
+                          "Blocks": 2.0,
+                          "Steals": 1.0,
+                          "TO": 9.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 17.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 11.0,
+                          "TReb": 13.0,
+                          "Assists": 0.0,
+                          "Blocks": 6.0,
+                          "Steals": 1.0,
+                          "TO": 4.0,
+                          "Fouls": 1.0,
+                          "Dunks": 2.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 17.0,
+                          "3PMade": 0.0,
+                          "3PA": 5.0,
+                          "FTM": 1.0,
+                          "FTA": 1.0,
+                          "OReb": 6.0,
+                          "DReb": 3.0,
+                          "TReb": 9.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 8.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 22.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 8.0,
+                          "DReb": 6.0,
+                          "TReb": 14.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 4.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 4.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              5.0,
+              6.0
+          ]
+      },
+      {
+          "game": 3,
+          "teams": [
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 5.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 4.0,
+                          "TReb": 4.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 1.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 8.0,
+                          "TReb": 10.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 1.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 11.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 8.0,
+                          "DReb": 4.0,
+                          "TReb": 12.0,
+                          "Assists": 4.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 24.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 5.0,
+                          "TReb": 12.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 11.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 6.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              2.0,
+              8.0
+          ]
+      },
+      {
+          "game": 4,
+          "teams": [
+              [
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 10.0,
+                          "TReb": 13.0,
+                          "Assists": 1.0,
+                          "Blocks": 3.0,
+                          "Steals": 2.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 4.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 13.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 5.0,
+                          "TReb": 8.0,
+                          "Assists": 1.0,
+                          "Blocks": 1.0,
+                          "Steals": 2.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 15.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 4.0,
+                          "TReb": 11.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 6.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 16.0,
+                          "3PMade": 1.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 6.0,
+                          "TReb": 7.0,
+                          "Assists": 0.0,
+                          "Blocks": 2.0,
+                          "Steals": 1.0,
+                          "TO": 1.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 7.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              6.0,
+              7.0
+          ]
+      },
+      {
+          "game": 5,
+          "teams": [
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 13.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 3.0,
+                          "TReb": 4.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 6.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 3.0,
+                          "TReb": 6.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 2.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 19.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 7.0,
+                          "TReb": 13.0,
+                          "Assists": 1.0,
+                          "Blocks": 3.0,
+                          "Steals": 7.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 4.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 14.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 11.0,
+                          "DReb": 5.0,
+                          "TReb": 16.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              3.0,
+              7.0
+          ]
+      },
+      {
+          "game": 6,
+          "teams": [
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 5.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 3.0,
+                          "TReb": 3.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 4.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 5.0,
+                          "TReb": 5.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 2.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 15.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 3.0,
+                          "TReb": 10.0,
+                          "Assists": 1.0,
+                          "Blocks": 1.0,
+                          "Steals": 5.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 3.0,
+                          "TReb": 10.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              2.0,
+              5.0
+          ]
+      },
+      {
+          "game": 7,
+          "teams": [
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 2.0,
+                          "TReb": 9.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 2.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 21.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 9.0,
+                          "TReb": 12.0,
+                          "Assists": 2.0,
+                          "Blocks": 1.0,
+                          "Steals": 5.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 4.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 15.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 9.0,
+                          "TReb": 15.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 4.0,
+                          "TReb": 5.0,
+                          "Assists": 4.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              6.0,
+              5.0
+          ]
+      },
+      {
+          "game": 8,
+          "teams": [
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 11.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 5.0,
+                          "TReb": 7.0,
+                          "Assists": 2.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 8.0,
+                          "3PMade": 1.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 2.0,
+                          "TReb": 6.0,
+                          "Assists": 0.0,
+                          "Blocks": 2.0,
+                          "Steals": 1.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 7.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 19.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 2.0,
+                          "TReb": 8.0,
+                          "Assists": 3.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 5.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 7.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 5.0,
+                          "TReb": 8.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 7.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              7.0,
+              12.0
+          ]
+      },
+      {
+          "game": 9,
+          "teams": [
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 16.0,
+                          "3PMade": 1.0,
+                          "3PA": 4.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 5.0,
+                          "TReb": 7.0,
+                          "Assists": 2.0,
+                          "Blocks": 1.0,
+                          "Steals": 5.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 7.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 5.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 2.0,
+                          "TReb": 3.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 14.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 4.0,
+                          "TReb": 10.0,
+                          "Assists": 5.0,
+                          "Blocks": 3.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 6.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 12.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 5.0,
+                          "TReb": 7.0,
+                          "Assists": 2.0,
+                          "Blocks": 0.0,
+                          "Steals": 8.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 5.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              10.0,
+              11.0
+          ]
+      },
+      {
+          "game": 10,
+          "teams": [
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 2.0,
+                          "TReb": 3.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 5.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 0.0,
+                          "TReb": 2.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 4.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 8.0,
+                          "TReb": 9.0,
+                          "Assists": 2.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 3.0,
+                          "TReb": 7.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 5.0,
+                          "Fouls": 1.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              3.0,
+              6.0
+          ]
+      },
+      {
+          "game": 11,
+          "teams": [
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 11.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 3.0,
+                          "TReb": 7.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 19.0,
+                          "3PMade": 0.0,
+                          "3PA": 4.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 10.0,
+                          "TReb": 17.0,
+                          "Assists": 1.0,
+                          "Blocks": 1.0,
+                          "Steals": 4.0,
+                          "TO": 8.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 15.0,
+                          "3PMade": 0.0,
+                          "3PA": 4.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 8.0,
+                          "DReb": 7.0,
+                          "TReb": 15.0,
+                          "Assists": 4.0,
+                          "Blocks": 0.0,
+                          "Steals": 6.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 18.0,
+                          "3PMade": 1.0,
+                          "3PA": 9.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 7.0,
+                          "TReb": 9.0,
+                          "Assists": 2.0,
+                          "Blocks": 5.0,
+                          "Steals": 3.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 7.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              4.0,
+              9.0
+          ]
+      },
+      {
+          "game": 12,
+          "teams": [
+              [
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 14.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 3.0,
+                          "TReb": 4.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 5.0,
+                          "TO": 7.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 4.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 4.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 4.0,
+                          "TReb": 8.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 4.0,
+                          "TReb": 6.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 5.0,
+                          "TO": 1.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 6.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 0.0,
+                          "DReb": 3.0,
+                          "TReb": 3.0,
+                          "Assists": 6.0,
+                          "Blocks": 1.0,
+                          "Steals": 4.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              5.0,
+              7.0
+          ]
+      },
+      {
+          "game": 13,
+          "teams": [
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 5.0,
+                          "DReb": 4.0,
+                          "TReb": 9.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 3.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 7.0,
+                          "FGA": 26.0,
+                          "3PMade": 0.0,
+                          "3PA": 7.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 13.0,
+                          "TReb": 14.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 7.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 23.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 1.0,
+                          "FTA": 1.0,
+                          "OReb": 3.0,
+                          "DReb": 6.0,
+                          "TReb": 9.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 9.0,
+                          "TReb": 12.0,
+                          "Assists": 1.0,
+                          "Blocks": 2.0,
+                          "Steals": 2.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              8.0,
+              7.0
+          ]
+      },
+      {
+          "game": 14,
+          "teams": [
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 13.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 4.0,
+                          "TReb": 4.0,
+                          "Assists": 1.0,
+                          "Blocks": 1.0,
+                          "Steals": 4.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 6.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 2.0,
+                          "DReb": 7.0,
+                          "TReb": 9.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 2.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 14.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 4.0,
+                          "TReb": 5.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 1.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 4.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 9.0,
+                          "TReb": 12.0,
+                          "Assists": 4.0,
+                          "Blocks": 1.0,
+                          "Steals": 6.0,
+                          "TO": 3.0,
+                          "Fouls": 1.0,
+                          "Dunks": 1.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              3.0,
+              6.0
+          ]
+      },
+      {
+          "game": 15,
+          "teams": [
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 3.0,
+                          "DReb": 4.0,
+                          "TReb": 7.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 14.0,
+                          "3PMade": 1.0,
+                          "3PA": 4.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 7.0,
+                          "TReb": 8.0,
+                          "Assists": 0.0,
+                          "Blocks": 2.0,
+                          "Steals": 4.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 4.0,
+                          "FGA": 15.0,
+                          "3PMade": 1.0,
+                          "3PA": 6.0,
+                          "FTM": 1.0,
+                          "FTA": 1.0,
+                          "OReb": 2.0,
+                          "DReb": 7.0,
+                          "TReb": 9.0,
+                          "Assists": 1.0,
+                          "Blocks": 2.0,
+                          "Steals": 6.0,
+                          "TO": 5.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 6.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 10.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 5.0,
+                          "TReb": 9.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              6.0,
+              8.0
+          ]
+      },
+      {
+          "game": 16,
+          "teams": [
+              [
+                  {
+                      "name": "Lachlan",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 15.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 4.0,
+                          "DReb": 2.0,
+                          "TReb": 6.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 0.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "William",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 1.0,
+                          "TReb": 3.0,
+                          "Assists": 2.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 4.0,
+                          "Fouls": 1.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 11.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 1.0,
+                          "FTA": 1.0,
+                          "OReb": 0.0,
+                          "DReb": 8.0,
+                          "TReb": 8.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 5.0,
+                          "Points": 6.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 3.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 2.0,
+                          "TReb": 3.0,
+                          "Assists": 3.0,
+                          "Blocks": 1.0,
+                          "Steals": 0.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              6.0,
+              9.0
+          ]
+      },
+      {
+          "game": 17,
+          "teams": [
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 13.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 4.0,
+                          "DReb": 6.0,
+                          "TReb": 10.0,
+                          "Assists": 3.0,
+                          "Blocks": 1.0,
+                          "Steals": 4.0,
+                          "TO": 5.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 3.0,
+                          "TReb": 5.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 1.0,
+                          "TO": 4.0,
+                          "Fouls": 1.0,
+                          "Dunks": 4.0,
+                          "Points": 5.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Jude",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 1.0,
+                          "FTA": 2.0,
+                          "OReb": 2.0,
+                          "DReb": 1.0,
+                          "TReb": 3.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 0.0,
+                          "TO": 3.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Nolan",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 18.0,
+                          "3PMade": 0.0,
+                          "3PA": 5.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 8.0,
+                          "DReb": 4.0,
+                          "TReb": 11.0,
+                          "Assists": 0.0,
+                          "Blocks": 2.0,
+                          "Steals": 7.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 2.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              7.0,
+              6.0
+          ]
+      },
+      {
+          "game": 18,
+          "teams": [
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 5.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 1.0,
+                          "DReb": 1.0,
+                          "TReb": 2.0,
+                          "Assists": 0.0,
+                          "Blocks": 0.0,
+                          "Steals": 5.0,
+                          "TO": 2.0,
+                          "Fouls": 1.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 10.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 5.0,
+                          "TReb": 7.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Clifford",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 8.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 0.0,
+                          "DReb": 6.0,
+                          "TReb": 6.0,
+                          "Assists": 0.0,
+                          "Blocks": 1.0,
+                          "Steals": 2.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Abel",
+                      "stats": {
+                          "FGMade": 0.0,
+                          "FGA": 1.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 1.0,
+                          "DReb": 4.0,
+                          "TReb": 5.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 0.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              2.0,
+              1.0
+          ]
+      },
+      {
+          "game": 19,
+          "teams": [
+              [
+                  {
+                      "name": "Isaiah",
+                      "stats": {
+                          "FGMade": 3.0,
+                          "FGA": 10.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 5.0,
+                          "TReb": 8.0,
+                          "Assists": 0.0,
+                          "Blocks": 2.0,
+                          "Steals": 3.0,
+                          "TO": 3.0,
+                          "Fouls": 1.0,
+                          "Dunks": 2.0,
+                          "Points": 3.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Jonny",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 6.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 2.0,
+                          "TReb": 5.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 4.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 1.0
+                      },
+                      "won": false
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 7.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 1.0,
+                          "FTA": 1.0,
+                          "OReb": 2.0,
+                          "DReb": 0.0,
+                          "TReb": 2.0,
+                          "Assists": 2.0,
+                          "Blocks": 0.0,
+                          "Steals": 4.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 1.0,
+                          "Points": 3.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 2.0,
+                          "FGA": 9.0,
+                          "3PMade": 0.0,
+                          "3PA": 2.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 3.0,
+                          "DReb": 6.0,
+                          "TReb": 9.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 3.0,
+                          "TO": 1.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 2.0
+                      },
+                      "won": true
+                  }
+              ]
+          ],
+          "scores": [
+              4.0,
+              5.0
+          ]
+      },
+      {
+          "game": 20,
+          "teams": [
+              [
+                  {
+                      "name": "Kasch",
+                      "stats": {
+                          "FGMade": 1.0,
+                          "FGA": 4.0,
+                          "3PMade": 0.0,
+                          "3PA": 0.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 2.0,
+                          "DReb": 2.0,
+                          "TReb": 4.0,
+                          "Assists": 1.0,
+                          "Blocks": 0.0,
+                          "Steals": 2.0,
+                          "TO": 2.0,
+                          "Fouls": 0.0,
+                          "Dunks": 0.0,
+                          "Points": 1.0
+                      },
+                      "won": true
+                  },
+                  {
+                      "name": "Cedric",
+                      "stats": {
+                          "FGMade": 12.0,
+                          "FGA": 28.0,
+                          "3PMade": 0.0,
+                          "3PA": 1.0,
+                          "FTM": 0.0,
+                          "FTA": 1.0,
+                          "OReb": 2.0,
+                          "DReb": 13.0,
+                          "TReb": 15.0,
+                          "Assists": 0.0,
+                          "Blocks": 6.0,
+                          "Steals": 4.0,
+                          "TO": 3.0,
+                          "Fouls": 0.0,
+                          "Dunks": 3.0,
+                          "Points": 12.0
+                      },
+                      "won": true
+                  }
+              ],
+              [
+                  {
+                      "name": "Oren",
+                      "stats": {
+                          "FGMade": 5.0,
+                          "FGA": 10.0,
+                          "3PMade": 0.0,
+                          "3PA": 3.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 7.0,
+                          "DReb": 6.0,
+                          "TReb": 13.0,
+                          "Assists": 6.0,
+                          "Blocks": 3.0,
+                          "Steals": 2.0,
+                          "TO": 5.0,
+                          "Fouls": 0.0,
+                          "Dunks": 4.0,
+                          "Points": 5.0
+                      },
+                      "won": false
+                  },
+                  {
+                      "name": "Lee",
+                      "stats": {
+                          "FGMade": 6.0,
+                          "FGA": 32.0,
+                          "3PMade": 0.0,
+                          "3PA": 6.0,
+                          "FTM": 0.0,
+                          "FTA": 0.0,
+                          "OReb": 6.0,
+                          "DReb": 6.0,
+                          "TReb": 12.0,
+                          "Assists": 1.0,
+                          "Blocks": 1.0,
+                          "Steals": 3.0,
+                          "TO": 1.0,
+                          "Fouls": 1.0,
+                          "Dunks": 4.0,
+                          "Points": 6.0
+                      },
+                      "won": false
+                  }
+              ]
+          ],
+          "scores": [
+              13.0,
+              11.0
+          ]
+      }
+    ]
+}
