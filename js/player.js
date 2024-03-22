@@ -73,9 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       //check all players stats and find the highest value for each stat across all games for everyone
       const allPlayers = data.games.flatMap((game) => game.teams.flat());
-      const allStats = allPlayers.flatMap((player) =>
-        Object.keys(player.stats).map((stat) => player.stats[stat])
-      );
       const maxStats = allPlayers.reduce((acc, curr) => {
         Object.keys(curr.stats).forEach((stat) => {
           if (!acc[stat] || curr.stats[stat] > acc[stat]) {
@@ -87,12 +84,25 @@ document.addEventListener("DOMContentLoaded", function () {
       //in this table highlight any current cells that hvae any stats that are the highest across all games for all players
       const gamesPlayedTable = document.getElementById("gamesPlayed");
       const rows = gamesPlayedTable.getElementsByTagName("tr");
+
+      // Identify the indices of the stats in your table
+      const statIndices = Object.keys(maxStats);
+
       for (let i = 1; i < rows.length; i++) {
         const cells = rows[i].getElementsByTagName("td");
         for (let j = 1; j < cells.length; j++) {
-          const cellValue = parseInt(cells[j].textContent);
-          if (cellValue === maxStats[Object.keys(maxStats)[j - 1]]) {
-            cells[j].style.backgroundColor = "#57ad54"; //highlight the cell
+          // Get the stat corresponding to the current cell/column
+          const currentStat = statIndices[j - 1];
+          const cellValue = parseInt(cells[j].textContent, 10); // Ensure parsing as base 10
+
+          // Check if the cell value matches the max for this stat
+          if (cellValue === maxStats[currentStat]) {
+            // Highlight Fouls and Turnovers in red, others in green
+            if (currentStat === "Fouls" || currentStat === "TO") {
+              cells[j].style.backgroundColor = "#f44336"; // Red for highest Fouls/TO
+            } else {
+              cells[j].style.backgroundColor = "#57ad54"; // Green for highest other stats
+            }
           }
         }
       }
