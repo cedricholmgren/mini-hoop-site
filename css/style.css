@@ -118,3 +118,16 @@ a:hover {
   align-items: center; /* This ensures the content is centered */
   margin: 20px;
 }
+
+.toggle {
+  /* make the toggle look nice */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* fixed size */
+  width: 100px;
+  height: 40px;
+}

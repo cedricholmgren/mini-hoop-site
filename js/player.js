@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleButton.addEventListener("click", () => {
         showAverages = !showAverages; // Toggle the state
         updateStatsDisplay(showAverages); // Update the stats display based on the new state
-        toggleButton.textContent = showAverages ? "Totals" : "Averages"; // Update button text
+        toggleButton.textContent = showAverages ? "Averages" : "Totals"; // Update the button text
       });
 
       function calculatePlayerStats(data, calculateAverages = false) {
