@@ -4,6 +4,7 @@
         "name": "Cedric",
         "height": "6'1\"",
         "weight": "170 lbs",
+        "age": "19",
         "bio": "Cedric is a contender for league MVP, known for shooting, rebounding, and rim protection, he is a force to be reckoned with.",
         "image": "../images/cedric.jpg"
       },
@@ -11,6 +12,7 @@
         "name": "Kasch",
         "height": "5'10\"",
         "weight": "180 lbs",
+        "age": "16",
         "bio": "Kasch is a defensive monster known for great shot contesting and rebounding, he provides a constant threat on the defensive end.",
         "image": "../images/kasch.jpg"
       },
@@ -18,6 +20,7 @@
         "name": "Lachlan",
         "height": "5'11\"",
         "weight": "160 lbs",
+        "age": "17",
         "bio": "Lachlan is an aggresive offensive player known for his scoring ability and quickness, he primarily works in the paint.",
         "image": "../images/lachlan.jpg"
       },
@@ -25,6 +28,7 @@
         "name": "William",
         "height": "6'0\"",
         "weight": "175 lbs",
+        "age": "26",
         "bio": "William is a versatile player on both ends of the floor, providing dunking, rebounding, and shot blocking.",
         "image": "../images/william.jpg"
       },
@@ -32,6 +36,7 @@
         "name": "Isaiah",
         "height": "5'8\"",
         "weight": "150 lbs",
+        "age": "18",
         "bio": "Isaiah is a quick and agile player known for his offensive firepower, he is a constant threat from the 3 point line as well as driving and dunking. Very clutch.",
         "image": "../images/isaiah.jpg"
       },
@@ -39,6 +44,7 @@
         "name": "Jonny",
         "height": "5'10\"",
         "weight": "200 lbs",
+        "age": "21",
         "bio": "Jonny is a dominant force in the paint, known for his offensive rebounding and dunking, he also blinds his opponents with comedic quips.",
         "image": "../images/jonny.jpg"
       },
@@ -46,6 +52,7 @@
         "name": "Abel",
         "height": "6'0\"",
         "weight": "200 lbs",
+        "age": "19",
         "bio": "Abel is a powerhouse paint player. Masterfully backing down opponents and dunking on them. The closest comparison to Shaq in the league.",
         "image": "../images/abel.jpg"
       },
@@ -53,6 +60,7 @@
         "name": "Clifford",
         "height": "5'9\"",
         "weight": "160 lbs",
+        "age": "24",
         "bio": "Clifford is an agile guard known for sneaking between defenders and dunking, he is also a great shot blocker and good at snagging steals.",
         "image": "../images/clifford.jpg"
       },
@@ -60,6 +68,7 @@
         "name": "Jude",
         "height": "5'10\"",
         "weight": "170 lbs",
+        "age": "20",
         "bio": "Jude is a versatile player with solid passing ability. He's quickly learning the game and should be someone to watch for in the future.",
         "image": "../images/jude.jpg"
       },
@@ -67,6 +76,7 @@
         "name": "Nolan",
         "height": "6'0\"",
         "weight": "170 lbs",
+        "age": "21",
         "bio": "Nolan is a solid all around player, known for his 3 point shooting and fadeaways and defense, he is a constant threat on both ends of the floor.",
         "image": "../images/nolan.jpg"
       },
@@ -74,6 +84,7 @@
         "name": "Oren",
         "height": "5'11\"",
         "weight": "170 lbs",
+        "age": "25",
         "bio": "Oren is a high flying dunker with impeccable passing vision, he is a great team player and a constant threat on the offensive end.",
         "image": "../images/oren.jpg"
       },
@@ -81,6 +92,7 @@
         "name": "Lee",
         "height": "5'10\"",
         "weight": "180 lbs",
+        "age": "23",
         "bio": "Lee is a high basketball IQ player, known for his great passing and court vision, he also is great at cutting off passing lanes and snagging steals.",
         "image": "../images/lee.jpg"
       }

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const listItem = document.createElement("li");
         const link = document.createElement("a");
         // Use encodeURIComponent to safely encode the player's name for the URL
-        link.href = `players.html?name=${encodeURIComponent(player.name)}`; // Now using name instead of ID
+        link.href = `player.html?name=${encodeURIComponent(player.name)}`; // Now using name instead of ID
         link.textContent = player.name;
         listItem.appendChild(link);
         playersList.appendChild(listItem);

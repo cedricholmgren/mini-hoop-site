@@ -1,0 +1,120 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack children vertically */
+  padding: 20px 0; /* Add some padding */
+}
+
+.site-header h1 {
+  margin-top: 0; /* Remove default margin */
+  text-align: center; /* Center nav text */
+}
+
+.site-header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%; /* Ensure nav takes the full width */
+  text-align: center; /* Center nav text */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+  display: inline-block; /* Allow the list to size with its content */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px; /* Adjust spacing around each item */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Target all <a> elements to remove underlines */
+a {
+  text-decoration: none; /* Removes underline */
+  color: #0050b5;
+}
+
+/* Add underline back on hover */
+a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* add a variation of card called first card that takes up 33% however it also applies the same syles as card*/
+
+.first-card {
+  width: 33%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.stat {
+  width: 100px;
+  height: 100px;
+  margin: 20px; /* Adjust spacing as needed */
+  border-radius: 50%; /* Makes the element a circle */
+  background-color: #f0f0f0; /* Light background color, change as needed */
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: #333; /* Text color, adjust as needed */
+  font-size: 24px; /* Big number size, adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 2px solid #ddd; /* Optional: adds a border for better definition */
+}
+
+.stat-container {
+  text-align: center;
+  width: 100px; /* Match the .stat width */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This ensures the content is centered */
+  margin: 20px;
+}

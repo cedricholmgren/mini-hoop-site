@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Player Profile</title>
+    <link rel="stylesheet" href="../css/player.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <h1><a href="index.html">Mini Hoop League</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="stats.html">Stats</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div id="playerContainer" class="card first-card container">
+        <img id="playerImage" src="" alt="Player Image" class="player-image" />
+        <div>
+          <h1 id="playerName" class="playerName"></h1>
+          <p id="playerAge"></p>
+          <p id="playerBio"></p>
+        </div>
+      </div>
+      <div id="playerStats" class="card">
+        <h2>Player Stats</h2>
+        <div class="toggle-container">
+          <button id="toggleStats">Averages</button>
+        </div>
+        <div class="container">
+          <div class="stat-container">
+            <h3>Points</h3>
+            <div class="stat">
+              <p id="playerPoints"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>Rebounds</h3>
+            <div class="stat">
+              <p id="playerTReb"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>Assists</h3>
+            <div class="stat">
+              <p id="playerAssists"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>Steals</h3>
+            <div class="stat">
+              <p id="playerSteals"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>Blocks</h3>
+            <div class="stat">
+              <p id="playerBlocks"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>Turnovers</h3>
+            <div class="stat">
+              <p id="playerTO"></p>
+            </div>
+          </div>
+          <div class="stat-container">
+            <h3>FG%</h3>
+            <div class="stat">
+              <p id="playerShootingPercentage"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Table for Games Played -->
+    <h2>Games Played</h2>
+    <table id="gamesPlayed" class="table">
+      <thead>
+        <tr>
+          <!-- Add other stat columns as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamically filled by players.js -->
+      </tbody>
+    </table>
+
+    <!-- Career Averages Card -->
+    <div id="careerAverages">
+      <h2>Career Averages</h2>
+      <!-- Stats will be filled in by players.js -->
+    </div>
+
+    <!-- Career Totals Card -->
+    <div id="careerTotals">
+      <h2>Career Totals</h2>
+      <!-- Stats will be filled in by players.js -->
+    </div>
+
+    <script src="../js/player.js"></script>
+  </body>
+</html>

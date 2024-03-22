@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create an anchor element for the player's name
         const nameCell = row.insertCell();
         const nameLink = document.createElement("a");
-        nameLink.href = `players.html?name=${encodeURIComponent(name)}`; // Link to player's profile page
+        nameLink.href = `player.html?name=${encodeURIComponent(name)}`; // Link to player's profile page
         nameLink.textContent = name;
         nameCell.appendChild(nameLink);
 
