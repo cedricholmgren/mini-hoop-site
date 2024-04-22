@@ -77,11 +77,6 @@ a:hover {
   width: 33%;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .table {
   border-collapse: collapse;
   margin-top: 20px; /* Adjust spacing as needed */
@@ -137,4 +132,78 @@ a:hover {
   height: 100px;
   margin: 20px; /* Adjust spacing as needed */
   float: left; /* Align to the left */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-header {
+  /* bold text */
+  font-weight: bold;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-line {
+  display: flex;
+  margin-bottom: 5px;
+  width: 100%;
+  justify-content: center;
+}
+
+.team-stat {
+  width: 50px; /* Adjust the width as needed */
+  text-align: center;
+  /* full width */
+}
+
+.stat-name {
+  margin: 0 10px; /* This gives space around the stat name */
+  /* full width */
+}
+
+.stat-bar {
+  height: 20px; /* Adjust the height of the bar as needed */
+  background-color: #ddd; /* Background for the unfilled part of the bar */
+}
+
+.stat-bar.team1 {
+  background-color: red; /* Use your team's color */
+}
+
+.stat-bar.team2 {
+  background-color: blue; /* Use your team's color */
+  text-align: right;
+}
+
+/* Additional styling for stat-bar */
+.stat-bar.team1 {
+  margin-right: 5px;
+}
+
+.stat-bar.team2 {
+  margin-left: 5px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  /* position the element to the right */
+  align-items: end;
 }

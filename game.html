@@ -3,30 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <title>Game Details</title>
-    <link rel="stylesheet" href="../css/games.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="/favicon.png" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="header-container">
+        <h1><a href="index.html">Mini Hoop League</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="stats.html">Stats</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <div id="gameContainer">
-      <h1>Game Details</h1>
-      <h2 id="totalScore">Total Score:</h2>
-      <div id="boxScore">
-        <h3>Box Score</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>Player</th>
-              <th>Points</th>
-              <th>Rebounds</th>
-              <th>Assists</th>
-              <!-- Include other stats as needed -->
-            </tr>
-          </thead>
-          <tbody>
-            <!-- Content populated by games.js -->
-          </tbody>
-        </table>
+      <div class="container center">
+        <div id="gameCard" class="card" style="width: 500px">
+          <div id="gameHeader" class="card-header"></div>
+          <div id="gameStats" class="game-stats"></div>
+          <div id="playerOfTheGame"></div>
+          <!-- Dynamically filled by game.js -->
+        </div>
+      </div>
+
+      <div class="center">
+        <div id="boxScore">
+          <table class="table">
+            <thead>
+              <tr>
+                <!-- Add other stat columns as needed -->
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Dynamically filled by game.js -->
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
     <script src="../js/game.js"></script>
